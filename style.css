@@ -1,0 +1,46 @@
+*button{
+    background-color: yellowgreen;
+}
+
+#addBtn{
+    background: rgb(0 165 255);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+#inputElement{
+    height: 30px;
+    border: solid rgb(20, 167, 234);
+    height: 24px;
+    border-radius: 5px;
+}
+
+#slist{
+    height: 28px;
+}
+
+.header{
+    margin-left: 38px;
+}
+
+li{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+} 
+
+.header{
+
+}
+.heading{
+    margin-left: 42px;
+}
+.nnn{
+    border: solid rgb(182, 213, 217);
+    border-radius: 5px;
+    height: 40px;
+
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo array</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="heading">task tracker</h2>
+   <div class="header"> <input type="text" id="inputElement">
+    <button id="addBtn" >Add</button>
+
+    <select name="slist" onchange="ocompleted()" id="slist">
+        <option value="all" id="oall">All</option>
+        <option value="pending" id="opending">completed</option>
+        <option value="Completed" id="ocompleted">pending</option>
+    </select></div>
+
+    <ul id="list-element" style="list-style: none;">
+    </ul>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
